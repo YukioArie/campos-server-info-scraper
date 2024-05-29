@@ -44,7 +44,7 @@ async function initialize() {
         await frame.click(".dxeListBoxItemRow_DevEx:nth-child(3)");
         await sleep(2000);
         await frame.click('input[name="btnPesquisar"]');
-        await sleep(3000);
+        await sleep(20000);
         //////////////////////////////////////////////
         /////// pega quantidade de paginas
         const pageQuantity = await frame.evaluate(() => {
